@@ -1,21 +1,26 @@
 
 .banner{
+    padding: 5px 10px 0px 50px;
     display: flex;
-    justify-content: space-around;
-    width: 1680px;
+    justify-content: space-between;
+    width: 1920px;
     height: 850px;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: ;
 }
 .title{
+    margin-left: 80px;
+    margin-bottom: 30px;
     width: 708px;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
 }
 .description{
+    margin-left: 80px;
     color: rgba(39, 39, 39, 0.60);
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
     width: 634px;
@@ -25,9 +30,59 @@
     height: 710px;
 }
 .btn{
+    margin-left: 80px;
     color: white;
     padding: 20px 43px;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
+}
+.hot-deal-sale{
+    padding: 200px 90px 150px 100px;
+    width: 1790px;
+    height: 430px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+   
+.title2{
+    margin-left: 150px;
+    color: #272727;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description2{
+    margin-left: 190px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn2{
+    margin-left: 270px;
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+}
+.primary{
+    color: #E55473;
+}
+.social{
+    margin-bottom: 24px;
+    text-align: center;
+}
+.title3{
+    margin-bottom: 24px;
+}
+.description3{
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
