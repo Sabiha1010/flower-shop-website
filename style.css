@@ -73,7 +73,7 @@
     color: #E55473;
 }
 .social{
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .title3{
@@ -86,25 +86,29 @@
     font-weight: 400;
     text-align: center;
 }
-.latest deals{
+.last-banner{
+    background-image: url("./images/Rectangle\ 9.png");
+   margin: 100px 190px 353px 380px;
     width: 1440px;
     height: 449px;
     border-radius: 8px;
 }
 .title4{
     color: #272727;
+    margin-bottom: 30px;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
 }
 .description4{
     color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
 .subcription {
-    margin-left: 950px;
+    margin-left: 600px;
     width: 700px;
     height: 64px;
     background: #FFF;}
@@ -112,4 +116,24 @@ font-weight: 800;
     color: white;
     background-color: #E55473;
     text-align: center;
+}
+.ending{
+    color: rgba(255, 255, 255, 0.90);
+    padding: 130px 90px 100px 90px;
+    background: #111010;
+    width: 1800px;
+    height: 200px;
+    text-align: center;
+}
+.description5{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.ending-description{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
