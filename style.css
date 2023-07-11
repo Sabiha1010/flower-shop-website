@@ -1,0 +1,33 @@
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    width: 1680px;
+    height: 850px;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: ;
+}
+.title{
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+}
+.banner-img{
+    width: 360px;
+    height: 710px;
+}
+.btn{
+    color: white;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
