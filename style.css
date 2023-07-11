@@ -35,6 +35,7 @@
     color: white;
     padding: 20px 43px;
     gap: 10px;
+    border: none;
     border-radius: 8px;
     background: #E55473;
 }
@@ -50,26 +51,66 @@
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 150px;
+    margin-left: 250px;
 }
 .description1{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
 font-weight: 400;
+margin-left: 250px;
+margin-bottom: 2px;
 }
 .featured-flowers-images{
-   display: flex;
-   justify-content: space-around;
-}
-.flower-tree1{
+    width: 1400px;
+    height: 720px;
+    margin-top: 1px;
+    margin-left: 350px;
+    margin-right: 350px;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.box1{
+    width: 464px;
+    height: 538px;
+    border-radius: 250px 250px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.flower-tree2{
+.box2{
+    width: 464px;
+    height: 538px;
+    border-radius: 250px 250px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
-.flower-tree3{
+.box3{
+    width: 464px;
+    height: 538px;
+    border-radius: 250px 250px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+}
+.flower-tree1{
+    width: 400px;
+    height: 450px;
+    padding: 87px 3px 5px 30px;
+    align-items: center;
+    display: flex;
+}
+.flower-tree2{
+    width: 370px;
+    height: 370px;
+    padding: 87px 3px 5px 35px;
+    align-items: center;
+    display: flex;
+}
+.flower-tree3{
+    width: 400px;
+    height: 450px;
+    padding: 87px 3px 5px 30px;
+    align-items: center;
+    display: flex;
 }
 .hot-deal-sale{
     padding: ;
@@ -99,6 +140,7 @@ font-weight: 400;
 .btn2{
     margin-left: 270px;
     color: white;
+    border: none;
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
@@ -111,7 +153,9 @@ font-weight: 400;
     text-align: center;
 }
 .title3{
+    margin-top: 120px;
     margin-bottom: 24px;
+    margin-left: 70px;
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -119,14 +163,16 @@ font-weight: 400;
 }
 .description3{
     margin-bottom: 48px;
+    margin-left: 80px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
 .social-images{
-    column-gap: 20px;
-   
+    gap: 15px;
+    display: flex;
+    margin-left: 360px;
 }
 .last-banner{
     background-image: url("./images/Rectangle\ 9.png");
@@ -138,27 +184,37 @@ font-weight: 400;
 .title4{
     color: #272727;
    padding: 100px 100px 10px  100px;
-   margin-bottom: 2px;
+   margin-top: 150px;
+   margin-bottom: 5px;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
 .description4{
     color: rgba(39, 39, 39, 0.60);
+    margin-top: 5px;
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
-.subcription {
-    margin-left: 600px;
-    width: 700px;
-    height: 64px;
-    background: #FFF;}
+.subcription{
+    margin-top: 35px;
+    margin-left: 350px;
+    width: 610px;
+height: 48px;
+border: none;
+border-radius: 8px;
+background: #FFF;
+}
 .btn3{
     color: white;
     background-color: #E55473;
     text-align: center;
+    width: 100px;
+height: 50px;
+border: none;
+border-radius: 8px;
 }
 .ending{
     color: rgba(255, 255, 255, 0.90);
