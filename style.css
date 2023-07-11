@@ -86,3 +86,30 @@
     font-weight: 400;
     text-align: center;
 }
+.latest deals{
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+}
+.title4{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.description4{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.subcription {
+    margin-left: 950px;
+    width: 700px;
+    height: 64px;
+    background: #FFF;}
+.btn3{
+    color: white;
+    background-color: #E55473;
+    text-align: center;
+}
