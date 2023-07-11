@@ -2,9 +2,9 @@
 .banner{
     padding: 5px 10px 0px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1920px;
-    height: 850px;
+    height: 700px;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -26,8 +26,9 @@
     width: 634px;
 }
 .banner-img{
-    width: 360px;
+    width: 450px;
     height: 710px;
+    margin-right: 10px;
 }
 .btn{
     margin-left: 80px;
@@ -37,10 +38,43 @@
     border-radius: 8px;
     background: #E55473;
 }
+.featured-flowers{
+    width: 1920px;
+    height: 1000px;
+}
+.features{
+    text-align: center;
+}
+.title1{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description1{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.featured-flowers-images{
+   display: flex;
+   justify-content: space-around;
+}
+.flower-tree1{
+    align-items: center;
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower-tree2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-tree3{
+    background: rgba(71, 125, 17, 0.15);
+}
 .hot-deal-sale{
-    padding: 200px 90px 150px 100px;
-    width: 1790px;
-    height: 430px;
+    padding: ;
+    width: 1920px;
+    height: 580px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -78,6 +112,10 @@
 }
 .title3{
     margin-bottom: 24px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 .description3{
     margin-bottom: 48px;
@@ -86,23 +124,28 @@
     font-weight: 400;
     text-align: center;
 }
+.social-images{
+    column-gap: 20px;
+   
+}
 .last-banner{
     background-image: url("./images/Rectangle\ 9.png");
-   margin: 100px 190px 353px 380px;
+   margin: 200px 100px 150px 350px ;
     width: 1440px;
     height: 449px;
     border-radius: 8px;
 }
 .title4{
     color: #272727;
-    margin-bottom: 30px;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+   padding: 100px 100px 10px  100px;
+   margin-bottom: 2px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 .description4{
     color: rgba(39, 39, 39, 0.60);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
